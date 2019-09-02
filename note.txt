@@ -1,0 +1,9 @@
+1. manage.py
+2. settings.py
+	a. static file
+		PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+		STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+		STATIC_URL = '/static/'
+
+	b. allowed host
+		ALLOWED_HOSTS = ['learninglogs.azurewebsites.net']
