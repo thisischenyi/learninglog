@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here. 20190926
 class Topic(models.Model):
 	"""user's learning topic"""
 	text = models.CharField(max_length=200)
